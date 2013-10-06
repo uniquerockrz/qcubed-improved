@@ -77,6 +77,33 @@
 			
 			<img src="http://i.imgur.com/Sl7zIUT.png" class="img-rounded">
 
+			<h3>Creating a new control and view</h3>
+			<ul>
+			<li>Go to includes/controllers folder and create a PHP class file in the name your controller.
+			<li>Go to includes/views folder and create a tpl.php file of the name of your controller.
+			<li>You can see the Example or Welcome controller for an example.
+			<li>Autoload that file in includes/app_includes/myincludes.php
+			<li>Add the files to index.php for URL support.
+			<li>file should be accessible by the url - index.php/<name you gave in index>
+			</ul
+			<h3>Using example.com/controller URL instead of example.com/index.php/controller</h3>
+
+			<p>Rename the htaccess.txt file to .htaccess. Make sure you have mod_rewrite enabled.</p>
+
+			<h3>Credits</h3>
+
+			<p>Thanks to my friend and guru <a href="https://github.com/vaibhav-kaushal">Vaibhav Kaushal</a> for providing the hints. I also want to thank the wonderful developers and designers of
+				QCubed and Twiiter Bootstrap for the wonderful work they are doing. This is just a small tribute to them.</p>
+
+			<h3>Disclaimer</h3>
+
+			<p>qcubed-improved is in no way, endorsed or associated with QCubed or Twitter Bootstrap.</p>
+
+			<h3>License</h3>
+
+			<p>Bootstrap is distributed under Apache License. QCubed is under MIT license. qcubed-bootstrap is distributed under MIT License.</p>
+
+			<em>To edit this page, go to includes/controllers/WelcomeController.class.php and includes/views/WelcomeView.tpl.php</em>
 			<br />
 			<br />
 			<br />
